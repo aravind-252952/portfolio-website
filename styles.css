@@ -1,0 +1,57 @@
+    p {
+        border-style: dotted;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th {
+        height: 50px;
+    }
+
+    body {
+        background-color: orange;
+        color: black;
+    }
+
+    h1 {
+        border-top-style: dotted;
+        border-right-style: solid;
+        border-bottom-style: dotted;
+        border-left-style: solid;
+        font-size: 45px;
+        background-color: burlywood;
+
+    }
+
+    h3 {
+        font-size: 35px;
+        background-color: burlywood;
+    }
+
+    span {
+        background-color: green;
+    }
+
+    li {
+        border-style: dotted;
+        font-size: 30px;
+
+    }
+
+    p {
+        width: 100%;
+        font-size: 30px;
+
+    }
+
+    h2 {
+        border-style: dashed;
+    }
+
+    img {
+        width: 200px;
+        height: 100px;
+    }
+    
