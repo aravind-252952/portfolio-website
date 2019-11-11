@@ -47,6 +47,18 @@
       font-size: 12px;
     }
 
+    .foo {
+      margin-top: 15px;
+      text-align: center;
+      color: gray;
+      margin-bottom: 15px;
+    }
+
+    .fii {
+      color: gray;
+      font-size: 16px;
+    }
+
     pp {
       color: gray;
 
@@ -376,16 +388,16 @@
 
 
 
-    <!--introduce highlights -->
-    <div class="row d-none d-md-flex fo">
-      <div class="col-12 fo">Explore</div>
-      <div class="col-2"> </div>
 
-      <div class="col-2 fi b">Topics</div>
-      <div class="col-2 fi">Trending</div>
-      <div class="col-2 fi ">Collections</div>
-      <div class="col-2 fi p">Events</div>
-      <div class="col-2"> </div>
+    <!--introduce highlights -->
+    <div class="row d-none d-md-flex foo">
+      <div class="col-1"> </div>
+      <div class="col-1 fii">Explore</div>
+      <div class="col-1 fii b">Topics</div>
+      <div class="col-1 fii">Trending</div>
+      <div class="col-1 fii ">Collections</div>
+      <div class="col-1 fii p">Events</div>
+      <div class="col-6"> </div>
     </div>
     <div class="row d-none d-md-flex hh">
       <div class="col-12">
@@ -398,8 +410,48 @@
       </div>
     </div>
     <!-- 3 images cards -->
+    <div class="card-deck">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="row d-none d-md-flex ima">
+
+        <img src="<img src=" assets/opengl.png " height="100px ">" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">OpenGL</h5>
+          <p class="card-text te">OpenGL is a software that allows a programmer communicate with graphics hardware.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="row d-none d-md-flex ima">
-      <div class="card text-center" style="width: 30rem;">
+      <div class="card-img-top" style="width: 30rem;">
         <div class="card-body">
           <div><img src="assets/opengl.png " height="100px"></div>
           <h5 class="card-title">OpenGL</h5>
@@ -411,7 +463,7 @@
 
 
     <div class="row d-none d-md-flex ima">
-      <div class="card text-center">
+      <div class="card-img-top">
         <div class="card-body">
           <div><img src="assets/flask.png " height="100px"></div>
           <h5 class="card-title">Flask</h5>
@@ -421,7 +473,7 @@
       </div>
     </div>
     <div class="row d-none d-md-flex ima">
-      <div class="card text-center">
+      <div class="card-img-top">
         <div class="card-body">
           <div><img src="assets/gradle.png " height="100px"></div>
           <h5 class="card-title">Gradle</h5>
