@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <title>
+    assignment13/assignment13.html
+  </title>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css" />
+    <script src="../bootstrap/jquery.min.js"></script>
+    <script src="../bootstrap/popper.min.js"></script>
+    <script src="../bootstrap/bootstrap.min.js"></script>
+  </head>
+  <style>
+    .column {
+      float: left;
+      width: 25%;
+      height: 40px;
+      padding: 20px;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    @media screen and (max-width: 992px) {
+      .column {
+        display: inline-block;
+        height: 100px;
+        padding: 55px;
+        border: 1px solid blue;
+        background-color: yellow;
+
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 576px) {
+      .column {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 1px solid blue;
+        background-color: yellow;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      .column {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 1px solid blue;
+        background-color: yellow;
+
+      }
+    }
+  </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="column" style="background-color: orange;">d</div>
+      </div>
+      <div class="row">
+        <div class="column" style="background-color: orange;">d</div>
+      </div>
+      <div class="row">
+        <div class="column" style="background-color: orange;">d</div>
+      </div>
+      <div class="row">
+        <div class="column" style="background-color: orange;">d</div>
+      </div>
+    </div>
+  </body>
+
+</html>
