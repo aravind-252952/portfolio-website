@@ -111,6 +111,14 @@
       margin-bottom: 40px;
     }
 
+    .hhr {
+      margin-top: -10px;
+      height: 220px;
+      padding-top: 50px;
+      background-color: #f2f2f2;
+      margin-bottom: 40px;
+    }
+
     .b {
       border-bottom: 2px solid skyblue;
 
@@ -123,9 +131,9 @@
     <div class="container">
       <!-- heading -->
       <div class="pos-f-t">
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-dark bg-dark d-flex d-md-none">
           <div class="he"><img src="assets/github-logo.svg " height="35px"></div>
-          <div class="col-4"> </div>
+          <div class="col-7"> </div>
           <button type="button" class="btn btn-dark ">&nbsp&nbsp&nbsp&nbsp&nbsp Sign up</button>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -396,6 +404,16 @@
 
 
     <!--introduce highlights -->
+    <div class="pos-f-t">
+      <nav class="navbar navbar-dark bg-dark d-none d-md-flex">
+        <div class="he"><img src="assets/github-logo.svg " height="35px"></div>
+        <div class="col-9"> </div>
+        <button type="button" class="btn btn-dark ">&nbsp&nbsp&nbsp&nbsp&nbsp Sign up</button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      </nav>
+    </div>
     <div class="row d-none d-md-flex foo">
       <div class="col-1"> </div>
       <div class="col-1 fii">Explore</div>
@@ -405,7 +423,7 @@
       <div class="col-1 fii p">Events</div>
       <div class="col-6"> </div>
     </div>
-    <div class="row d-none d-md-flex hh">
+    <div class="row d-none d-md-flex hhr">
       <div class="col-12">
         <center>
           <h5 style="font-size: 40px">Topics</h5>
@@ -420,7 +438,7 @@
 
     <div class="row  d-none d-md-flex imal">
       <div class="col-3 ">
-        <div class="card text-center" style="width: 15rem;">
+        <div class="card text-center" style="width: 15rem; height:300px;">
           <div class="card-body">
             <div><img src="assets/opengl.png " height="100px"></div>
             <h5 class="card-title">OpenGL</h5>
@@ -430,18 +448,19 @@
         </div>
       </div>
 
+      <div class="col-1"> </div>
       <div class="col-3">
-        <div class="card text-center" style="width: 15rem;">
+        <div class="card text-center" style="width: 15rem; height:300px;">
           <div class=" card-body ">
             <div><img src="assets/flask.png " height="100px "></div>
             <h5 class="card-title ">Flask</h5>
-            <p class="card-text te ">Flask is a web framework for python bassed on the Werkzeug toolkit."</p>
+            <p class="card-text te ">Flask is a web framework for python bassed on the Werkzeug toolkit."<br></p>
           </div>
         </div>
       </div>
-
+      <div class="col-1"> </div>
       <div class="col-3">
-        <div class="card text-center" style="width: 15rem;">
+        <div class="card text-center" style="width: 15rem; height:300px;">
           <div class=" card-body ">
             <div><img src="assets/gradle.png " height="100px "></div>
             <h5 class="card-title ">Gradle</h5>
