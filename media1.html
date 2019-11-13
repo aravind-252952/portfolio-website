@@ -14,10 +14,10 @@
   </head>
   <style>
     @media screen and (max-width: 576px) {
-      body {
+      .grid-item {
         border: 2px solid black;
       }
-      .inline-block {
+      .grid-item-content {
         display: inline-block;
         width: 100%;
         margin-top: 20px;
@@ -28,14 +28,11 @@
       }
     }
 
-
-
     @media screen and (min-width: 768px) {
-
-      body {
+      .grid-item {
         border: 2px solid black;
       }
-      .inline-block {
+      .grid-item-content {
         display: inline-block;
         background-color: green;
         margin-left: 20px;
@@ -48,10 +45,10 @@
     }
 
     @media screen and (min-width: 1200px) {
-      body {
+      .grid-item {
         border: 2px solid black;
       }
-      .inline-block {
+      .grid-item-content {
         display: inline-block;
         height: 100px;
         width: 21%;
@@ -64,10 +61,21 @@
   </head>
 
   <body>
-    <div class="inline-block ">d</div>
-    <div class="inline-block ">d</div>
-    <div class="inline-block ">d</div>
-    <div class="inline-block ">d</div>
+
+    <div class="grid-item">
+      <p class="grid-item-content"></p>
+    </div>
+
+    <div class="grid-item">
+      <p class="grid-item-content"></p>
+    </div>
+
+    <div class="grid-item">
+      <p class="grid-item-content"></p>
+    </div>
+
+    <div class="grid-item">
+      <p class="grid-item-content"></p>
     </div>
   </body>
 
