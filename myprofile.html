@@ -15,53 +15,195 @@
         <script src="bootstrap/jquery.min.js"></script>
         <script src="bootstrap/popper.min.js"></script>
         <script src="bootstrap/bootstrap.min.js"></script>
+        <meta name="author" content="" />
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     </head>
 
     <style>
         .container {
-            background-image: url(IMG20191027192649.jpg);
-            background-position: right bottom, left top;
-            background-repeat: repeat;
-            padding: 15px;
-            height: 1400px;
-            width: 100%;
+            height: 800px;
+            background-color: orange;
+            /* For browsers that do not support gradients */
+            background-image: linear-gradient(skyblue, orange);
+            /* Standard syntax (must be last) */
+        }
+
+        .pp {
+            color: red;
+            font-size: 40px;
         }
 
         .aa {
-            padding: 25px;
+            padding: 15px;
         }
 
-        .sidenav a {
-            color: white;
-            padding: 16px;
-            text-decoration: none;
+        .rr {
+            padding-left: 90px;
+            padding-top: 70px;
+        }
+
+        .imgg {
+
+            margin-top: 15px;
+            margin-right: auto;
+            margin-left: auto;
             display: block;
         }
 
-        /* Change color on hover */
+        .pic {
+            border-radius: 80%;
+            padding: 20px;
+        }
 
-        .sidenav a:hover {
-            background-color: #ddd;
+
+
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/ opacity */
+        }
+
+        /* Modal Content/Box */
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            /* 15% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            /* Could be more or less, depending on screen size */
+        }
+
+        /* The Close Button */
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
             color: black;
+            text-decoration: none;
+            cursor: pointer;
         }
     </style>
 
     <body>
+        <!-- <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+            <h3 class="w3-bar-item">Menu</h3>
+            <a href="#" class="w3-bar-item w3-button">Link 1</a>
+            <a href="#" class="w3-bar-item w3-button">Link 2</a>
+            <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        </div> -->
+
         <div class="container">
-            <div class="w3-bar w3-black aa">
+            <div class="author-img" style="background-image: url(242~2.JPG);"></div>
+            <div class="w3-bar w3-black aa w3-animate-zoom">
                 <a href="#" class="w3-bar-item w3-button">Home</a>
                 <a href="#" class="w3-bar-item w3-button">Profile</a>
                 <a href=" #" class="w3-bar-item w3-button w3-right">Contact</a>
             </div>
-            <h1 class="w3-animate-top">Hai</h1>
-            <h1>hai</h1>
-            <h1>hai</h1>
-            <h1>hai</h1>
-            <h1>hai</h1>
-            <h1>hai</h1>
-            <h1>hai</h1>
+            <div class="row">
+                <div class="col-5 rr">
+                    <h1 class="w3-animate-top">I'm a <u><span class="pp">Designer</span></u> with the ability to <u><span class="pp">Solve Problems</span></u> and make everyone's <u><span class="pp">life better</span></u>.</h1>
+                </div>
+                <div class="col-7">
+                    <img class="pic w3-animate-right" src="242~2.JPG" alt="ib pic" height="400">
+                </div>
+            </div>
+
+            <!--<div class="w3-content w3-section" style="max-width:500px">
+                <img class="mySlides" src="Photo_1574694496449.png" style="width:100%">
+                <img class="mySlides" src="IMG_20191128_142816.jpg" style="width:100%">
+                <img class="mySlides" src="img_chicago.jpg" style="width:100%">
+            </div>
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) { myIndex = 1 }
+                    x[myIndex - 1].style.display = "block";
+                    setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+            </script>
+            -->
+
+
+
+            <!--
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                        <div class="col-md-12">
+                            <div class="about-desc">
+                                <span class="heading-meta">About Us</span>
+                                <h2 class="colorlib-heading">Who is Aravind krishna?</h2>
+                                <p><strong>Hi I'm Jackson Ford</strong> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would
+                                    be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
+                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            -->
+
+            <!--  <div class="row imgg">
+                <div class="col-12">
+                    <img src="static/Social Icons/facebook.svg" height="40">
+                </div>
+                <div class="col-12">
+                    <img src="static/Social Icons/linkedin.svg" height="40">
+                </div>
+                <div class="col-12">
+                    <img src="static/Social Icons/pinterest.svg" height="40">
+                </div>
+                <div class="col-12">
+                    <img src="static/Social Icons/instagram.svg" height="40">
+                </div>
+            </div>
+            -->
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">Open Modal</button>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Some text in the Modal..</p>
+                </div>
+
+            </div>
         </div>
     </body>
 
